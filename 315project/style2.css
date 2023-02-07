@@ -13,13 +13,20 @@ main {
 }
 
 h1 {
-    color: grey; /* This is a comment! */
+    color: grey;
+    /* This is a comment! */
     text-align: center;
     font-size: 5em;
     text-transform: uppercase;
     font-family: 'Bebas Neue';
     letter-spacing: .2em;
 }
+
+a {
+    color: greenyellow;
+}
+
+
 
 .buttons {
     color: azure;
@@ -36,7 +43,7 @@ header h2 {
     color: #1A1A1A;
 }
 
-main > h2 {
+main>h2 {
     text-align: center;
     font-size: 2.5em;
     letter-spacing: .2em;
@@ -44,11 +51,11 @@ main > h2 {
     font-family: 'Bebas Neue';
 }
 
-.h_align{
+.h_align {
     text-align: center;
 }
 
-header{
+header {
     padding: 20px;
     height: 100vh;
 }
@@ -76,13 +83,14 @@ header.grids {
 }
 
 .blue_overline_text {
-    color:rgb(0, 0, 230);
-    text-decoration: underline;
+    color: rgb(0, 0, 230);
+    text-decoration:overline;
 }
 
 #red_underline_text {
-    color: #FF7E9C;
+    color: #eb008d;
     text-decoration: underline;
+    font-size: xx-large;
 }
 
 .divs {
@@ -135,7 +143,7 @@ header.grids {
     margin: 10px;
 }
 
-#techColumn6 > h3 {
+#techColumn6>h3 {
     font-size: larger;
 }
 
@@ -166,4 +174,8 @@ header.grids {
     padding-right: 120px;
 
     font-size: larger;
+}
+
+#tamu {
+    color: blue;
 }
