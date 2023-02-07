@@ -6,10 +6,14 @@ body {
 h1 {
     font-size: 7em;
     text-align: center;
+    margin: 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 h2 {
     font-size: 2.5em;
+    margin-top: 0%;
 }
 
 .page-sections {
@@ -21,13 +25,16 @@ h2 {
     grid-template-columns: 1fr 1fr;
 }
 
+#aboutGrid {
+    grid-template-rows: 100%;
+    height: 80%;
+}
+
 #aboutText {
-    margin: 0;
-    padding: 2em;
+    padding: 2%;
 }
 
 #aboutImages {
     text-align: center;
-    margin: 0;
-    padding: 2em;
+    padding: 2%;
 }
