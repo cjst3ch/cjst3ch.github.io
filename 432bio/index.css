@@ -1,0 +1,22 @@
+.page-sections {
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#aboutGrid {
+    grid-template-rows: 100%;
+    height: 80%;
+}
+
+#aboutText {
+    padding: 2%;
+}
+
+#aboutImages {
+    text-align: center;
+    padding: 2%;
+}
