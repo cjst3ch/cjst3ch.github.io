@@ -30,3 +30,8 @@
 #contactFormSection {
     text-align: center;
 }
+
+#questionMarkIcon {
+    position: relative;
+    top: .15em;
+}
