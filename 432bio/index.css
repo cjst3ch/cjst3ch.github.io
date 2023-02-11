@@ -48,3 +48,12 @@ ul {
     position: relative;
     top: 1em;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-right: 2%;
+}
