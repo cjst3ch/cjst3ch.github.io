@@ -70,16 +70,17 @@
 
     <section id="contactFormSection">
         <h2>Get in Touch!</h2>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Your Name...">
+        <form action="mailto:cjstech@tamu.edu" method="post" enctype="text/plain">
+            <label for="name">Name: *</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name..." required>
             <br>
-            <label for="email">Email:</label><br>
-            <input type="text" name="email" placeholder="Email..."><br>
+            <label for="email">Email: *</label><br>
+            <input type="text" name="email" placeholder="Email..." required><br>
             <br>
-            <label for="message">About you:</label><br>
-            <textarea id="message" name="message" placeholder="Write a bit about you..."></textarea>
+            <label for="message">About you: *</label><br>
+            <textarea id="message" name="message" placeholder="Write a bit about you..." required></textarea>
             <br>
+            <input type="reset" value="Reset">
             <input type="submit" value="Submit">
         </form>
     </section>
