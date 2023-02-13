@@ -133,6 +133,7 @@ header.grids {
 
 #techColumn6 {
     grid-column: 3;
+    font-size: larger;
     margin-left: auto;
     margin-right: auto;
 }
@@ -145,8 +146,8 @@ header.grids {
     margin: 10px;
 }
 
-#techColumn6>h3 {
-    font-size: larger;
+#techColumn6 li {
+    margin: 10px;
 }
 
 #qualifications {
