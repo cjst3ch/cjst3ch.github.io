@@ -28,7 +28,16 @@ a {
     color: greenyellow;
 }
 
+#langToolsList {
+    margin: 0px;
+    list-style-type: none;
+    padding-left: 15px;
+}
 
+.lang-tools {
+    float: left;
+    margin-right: 2%;
+}
 
 .buttons {
     color: azure;
@@ -182,3 +191,23 @@ header.grids {
 #tamu {
     color: blue;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #50000050;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: greenyellow;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(150, 222, 42);
+  }
