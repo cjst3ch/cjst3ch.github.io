@@ -3,3 +3,8 @@ body {
     color: azure;
     margin: 0px;
 }
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+}
