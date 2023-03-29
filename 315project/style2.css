@@ -98,9 +98,8 @@ header.grids {
     text-decoration:overline;
 }
 
-#red_underline_text {
+#redText {
     color: #eb008d;
-    text-decoration: underline;
     font-size: x-large;
 }
 
