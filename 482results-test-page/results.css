@@ -46,3 +46,10 @@ form {
     text-align: end;
     margin-bottom: 0;
 }
+
+@media (max-width: 575.98) {
+    .table-responsive {
+        height: 80vh;
+        overflow-y: auto;
+    }
+}
