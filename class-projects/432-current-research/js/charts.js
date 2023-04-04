@@ -5,7 +5,7 @@ google.charts.setOnLoadCallback(chartOneName);
 // Draw the chart and set the chart values
 function chartOneName() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Hours per Day'],
+        ['Task', 'Number of Games'],
         ['Work', 8],
         ['Eat', 2],
         ['TV', 4],
