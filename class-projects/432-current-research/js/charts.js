@@ -18,7 +18,7 @@ function ChartOneName() {
     var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('chartOneName'));
+    var chart = new google.visualization.BarChart(document.getElementById('ChartOneName'));
     chart.draw(data, options);
 }
 
@@ -36,6 +36,6 @@ function ChartTwoName() {
     var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('chartTwoName'));
+    var chart = new google.visualization.BarChart(document.getElementById('ChartTwoName'));
     chart.draw(data, options);
 }
