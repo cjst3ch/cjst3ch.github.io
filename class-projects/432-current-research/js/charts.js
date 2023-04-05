@@ -55,11 +55,11 @@ function Age() {
 function Audience() {
     var data = google.visualization.arrayToDataTable([
         ['Target Audience', 'Number of Games'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Schizophrenia', 1],
+        ['Autism', 9],
+        ['ADHD', 2],
+        ['MCI/Dementia/Alzheimer', 4],
+        ['PTSD', 1]
     ]);
 
     // Optional; add a title and set the width and height of the chart
