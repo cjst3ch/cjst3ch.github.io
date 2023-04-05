@@ -89,9 +89,9 @@ function Purpose() {
 function Multiplayer() {
     var data = google.visualization.arrayToDataTable([
         ['Multiplayer', 'Number of Games'],
-        ['No', 8],
-        ['Coop', 2],
-        ['Comp', 4]
+        ['No', 13],
+        ['Coop', 4],
+        ['Comp', 0]
     ]);
 
     // Optional; add a title and set the width and height of the chart
