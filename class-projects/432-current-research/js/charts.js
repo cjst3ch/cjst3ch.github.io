@@ -4,7 +4,7 @@ google.charts.setOnLoadCallback(CategoryOfGame);
 google.charts.setOnLoadCallback(Age);
 google.charts.setOnLoadCallback(Audience);
 google.charts.setOnLoadCallback(Purpose);
-google.charts.setOnLoadCallback(ChartFiveName);
+google.charts.setOnLoadCallback(Multiplayer);
 google.charts.setOnLoadCallback(ChartSixName);
 google.charts.setOnLoadCallback(ChartSevenName);
 google.charts.setOnLoadCallback(ChartEightName);
@@ -86,21 +86,19 @@ function Purpose() {
     chart.draw(data, options);
 }
 
-function ChartFiveName() {
+function Multiplayer() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Multiplayer', 'Number of Games'],
+        ['No', 8],
+        ['Coop', 2],
+        ['Comp', 4]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Multiplayer', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartFiveName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Multiplayer'));
     chart.draw(data, options);
 }
 
