@@ -3,7 +3,7 @@ google.charts.load('current', { 'packages': ['corechart'] });
 google.charts.setOnLoadCallback(CategoryOfGame);
 google.charts.setOnLoadCallback(Age);
 google.charts.setOnLoadCallback(Audience);
-google.charts.setOnLoadCallback(ChartFourName);
+google.charts.setOnLoadCallback(Purpose);
 google.charts.setOnLoadCallback(ChartFiveName);
 google.charts.setOnLoadCallback(ChartSixName);
 google.charts.setOnLoadCallback(ChartSevenName);
@@ -54,7 +54,7 @@ function Age() {
 
 function Audience() {
     var data = google.visualization.arrayToDataTable([
-        ['Target Audience', 'Number of Games'],
+        ['Target Disability', 'Number of Games'],
         ['Schizophrenia', 1],
         ['Autism', 9],
         ['ADHD', 2],
@@ -70,21 +70,19 @@ function Audience() {
     chart.draw(data, options);
 }
 
-function ChartFourName() {
+function Purpose() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Game Purposes', 'Number of Games'],
+        ['Health', 7],
+        ['Education', 1],
+        ['Training', 9]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Game Purposes', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartFourName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Purpose'));
     chart.draw(data, options);
 }
 
