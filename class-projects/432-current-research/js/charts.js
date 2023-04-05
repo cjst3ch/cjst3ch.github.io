@@ -2,7 +2,7 @@
 google.charts.load('current', { 'packages': ['corechart'] });
 google.charts.setOnLoadCallback(CategoryOfGame);
 google.charts.setOnLoadCallback(Age);
-google.charts.setOnLoadCallback(ChartThreeName);
+google.charts.setOnLoadCallback(Audience);
 google.charts.setOnLoadCallback(ChartFourName);
 google.charts.setOnLoadCallback(ChartFiveName);
 google.charts.setOnLoadCallback(ChartSixName);
@@ -38,23 +38,23 @@ function CategoryOfGame() {
 
 function Age() {
     var data = google.visualization.arrayToDataTable([
-        ['Target Audience', 'Number of games'],
+        ['Target Age', 'Number of games'],
         ['Child', 11],
         ['Adult', 2],
         ['Elder', 4]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'Target Audience', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Target Age', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
     var chart = new google.visualization.BarChart(document.getElementById('Age'));
     chart.draw(data, options);
 }
 
-function ChartThreeName() {
+function Audience() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
+        ['Target Audience', 'Number of Games'],
         ['Work', 8],
         ['Eat', 2],
         ['TV', 4],
@@ -63,10 +63,10 @@ function ChartThreeName() {
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Target Audience', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartSevenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Audience'));
     chart.draw(data, options);
 }
 
