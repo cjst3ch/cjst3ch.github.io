@@ -102,21 +102,20 @@ function Multiplayer() {
     chart.draw(data, options);
 }
 
-function ChartSixName() {
+function Platform() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Platform', 'Number of Games'],
+        ['Mobile', 6],
+        ['PC', 8],
+        ['AR', 1],
+        ['VR', 2]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Platforms', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartSixName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Platform'));
     chart.draw(data, options);
 }
 
