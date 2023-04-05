@@ -5,7 +5,7 @@ google.charts.setOnLoadCallback(Age);
 google.charts.setOnLoadCallback(Audience);
 google.charts.setOnLoadCallback(Purpose);
 google.charts.setOnLoadCallback(Multiplayer);
-google.charts.setOnLoadCallback(ChartSixName);
+google.charts.setOnLoadCallback(Platform);
 google.charts.setOnLoadCallback(ChartSevenName);
 google.charts.setOnLoadCallback(ChartEightName);
 google.charts.setOnLoadCallback(ChartNineName);
