@@ -63,6 +63,11 @@ p {
     padding-right: 5%;
 }
 
+body.js table.visualize {
+    position:absolute;
+    left:-9999em;
+}
+
 #results {
     padding-left: 5%;
     padding-right: 5%;

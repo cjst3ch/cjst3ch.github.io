@@ -21,6 +21,10 @@ google.charts.setOnLoadCallback(Reminder);
 google.charts.setOnLoadCallback(Narration);
 google.charts.setOnLoadCallback(Personal);
 
+// $(document).ready(function () {
+//     $('body').addClass('js');
+// });
+
 // Draw the chart and set the chart values
 function CategoryOfGame() {
     var data = google.visualization.arrayToDataTable([
