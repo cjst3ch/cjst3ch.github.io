@@ -6,17 +6,20 @@ google.charts.setOnLoadCallback(Audience);
 google.charts.setOnLoadCallback(Purpose);
 google.charts.setOnLoadCallback(Multiplayer);
 google.charts.setOnLoadCallback(Platform);
-google.charts.setOnLoadCallback(ChartSevenName);
-google.charts.setOnLoadCallback(ChartEightName);
-google.charts.setOnLoadCallback(ChartNineName);
-google.charts.setOnLoadCallback(ChartTenName);
-google.charts.setOnLoadCallback(ChartElevenName);
-google.charts.setOnLoadCallback(ChartTwelveName);
-google.charts.setOnLoadCallback(ChartThirteenName);
-google.charts.setOnLoadCallback(ChartFourteenName);
-google.charts.setOnLoadCallback(ChartFifteenName);
-google.charts.setOnLoadCallback(ChartSixteenName);
-google.charts.setOnLoadCallback(ChartSeventeenName);
+google.charts.setOnLoadCallback(Gore);
+google.charts.setOnLoadCallback(Style);
+google.charts.setOnLoadCallback(InputDevice);
+google.charts.setOnLoadCallback(NumberInputs);
+google.charts.setOnLoadCallback(CustomizableControls);
+google.charts.setOnLoadCallback(CustomizableGUI);
+google.charts.setOnLoadCallback(GUIElements);
+google.charts.setOnLoadCallback(Symbols);
+google.charts.setOnLoadCallback(Feedback);
+google.charts.setOnLoadCallback(Interactive);
+google.charts.setOnLoadCallback(Haptic);
+google.charts.setOnLoadCallback(Reminder);
+google.charts.setOnLoadCallback(Narration);
+google.charts.setOnLoadCallback(Personal);
 
 // Draw the chart and set the chart values
 function CategoryOfGame() {
@@ -119,200 +122,227 @@ function Platform() {
     chart.draw(data, options);
 }
 
-function ChartSevenName() {
+function Gore() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Gore/Blood', 'Number of Games'],
+        ['No', 17],
+        ['Yes', 0]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Gore/Blood', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartSevenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Gore'));
     chart.draw(data, options);
 }
 
-function ChartEightName() {
+function Style() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Style', 'Number of Games'],
+        ['Cartoon', 11],
+        ['Realistic', 8]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Style (Overlap)', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartEightName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Style'));
     chart.draw(data, options);
 }
 
-function ChartNineName() {
+function InputDevice() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Input Device', 'Number of Games'],
+        ['Touchscreen', 7],
+        ['Mouse', 3],
+        ['Mouse & Keyboard', 2],
+        ['Blocks', 2],
+        ['EEG Cap', 1],
+        ['VR Headset', 2]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Input Device', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartNineName'));
+    var chart = new google.visualization.BarChart(document.getElementById('InputDevice'));
     chart.draw(data, options);
 }
 
-function ChartTenName() {
+function NumberInputs() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Number of Inputs', 'Number of Games'],
+        ['1', 12],
+        ['2', 5]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Number of Inputs', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartTenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('NumberInputs'));
     chart.draw(data, options);
 }
 
-function ChartElevenName() {
+function CustomizableControls() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Customizable Controls', 'Number of Games'],
+        ['No', 14],
+        ['Yes', 1],
+        ['Not Tested', 1],
+        ['Not Applicable', 1]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Customizable Controls', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartElevenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('CustomizableControls'));
     chart.draw(data, options);
 }
 
-function ChartTwelveName() {
+function CustomizableGUI() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Customizable GUI', 'Number of Games'],
+        ['No', 14],
+        ['Yes', 2],
+        ['Not Tested', 1]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Customizable GUI', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartTwelveName'));
+    var chart = new google.visualization.BarChart(document.getElementById('CustomizableGUI'));
     chart.draw(data, options);
 }
 
-function ChartThirteenName() {
+function GUIElements() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Number of GUI Elements', 'Number of Games'],
+        ['>3', 7],
+        ['3 to 5', 5],
+        ['6 to 9', 2],
+        ['10+', 3]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Number of GUI Elements', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartThirteenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('GUIElements'));
     chart.draw(data, options);
 }
 
-function ChartFourteenName() {
+function Symbols() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Use of Symbols', 'Number of Games'],
+        ['No', 4],
+        ['Yes', 13]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Use of Symbols', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartFourteenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Symbols'));
     chart.draw(data, options);
 }
 
-function ChartFifteenName() {
+function Feedback() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Customizable Feedback', 'Number of Games'],
+        ['No', 11],
+        ['Yes', 1],
+        ['Not Tested', 5]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Customizable Feedback', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartFifteenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Feedback'));
     chart.draw(data, options);
 }
 
-function ChartSixteenName() {
+function Interactive() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Interactive Elements', 'Number of Games'],
+        ['No', 10],
+        ['Yes', 5],
+        ['Not Tested', 1],
+        ['Not Applicable', 1]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Interactive Elements', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartSixteenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Interactive'));
     chart.draw(data, options);
 }
 
-function ChartSeventeenName() {
+function Haptic() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Testing'],
-        ['Work', 8],
-        ['Eat', 2],
-        ['TV', 4],
-        ['Gym', 2],
-        ['Sleep', 8]
+        ['Haptic', 'Number of Games'],
+        ['No', 6],
+        ['Yes', 4],
+        ['Not Tested', 7]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Haptic', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
-    var chart = new google.visualization.BarChart(document.getElementById('ChartSeventeenName'));
+    var chart = new google.visualization.BarChart(document.getElementById('Haptic'));
+    chart.draw(data, options);
+}
+
+function Reminder() {
+    var data = google.visualization.arrayToDataTable([
+        ['Reminder', 'Number of Games'],
+        ['No', 5],
+        ['Yes', 8],
+        ['Not Tested', 4]
+    ]);
+
+    // Optional; add a title and set the width and height of the chart
+    var options = { 'title': 'Reminder', 'width': 550, 'height': 400 };
+
+    // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.BarChart(document.getElementById('Reminder'));
+    chart.draw(data, options);
+}
+
+function Narration() {
+    var data = google.visualization.arrayToDataTable([
+        ['Narration', 'Number of Games'],
+        ['Linear', 1],
+        ['Not Tested', 3],
+        ['Not Applicable', 13]
+    ]);
+
+    // Optional; add a title and set the width and height of the chart
+    var options = { 'title': 'Narration', 'width': 550, 'height': 400 };
+
+    // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.BarChart(document.getElementById('Narration'));
+    chart.draw(data, options);
+}
+
+function Personal() {
+    var data = google.visualization.arrayToDataTable([
+        ['Personalization Procedure', 'Number of Games'],
+        ['No', 15],
+        ['Yes', 2]
+    ]);
+
+    // Optional; add a title and set the width and height of the chart
+    var options = { 'title': 'Personalization Procedure', 'width': 550, 'height': 400 };
+
+    // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.BarChart(document.getElementById('Personal'));
     chart.draw(data, options);
 }
