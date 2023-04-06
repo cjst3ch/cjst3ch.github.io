@@ -1,2 +1,7 @@
 /* Current Research Project common stylesheet */
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
