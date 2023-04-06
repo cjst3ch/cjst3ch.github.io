@@ -32,7 +32,7 @@ function CategoryOfGame() {
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'Category of the Games (Overlap)', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Category of the Game (Overlap)', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
     var chart = new google.visualization.BarChart(document.getElementById('CategoryOfGame'));
@@ -41,7 +41,7 @@ function CategoryOfGame() {
 
 function Age() {
     var data = google.visualization.arrayToDataTable([
-        ['Target Age', 'Number of games'],
+        ['Age', 'Number of games'],
         ['Child', 11],
         ['Adult', 2],
         ['Elder', 4]
@@ -57,7 +57,7 @@ function Age() {
 
 function Audience() {
     var data = google.visualization.arrayToDataTable([
-        ['Target Disability', 'Number of Games'],
+        ['Disability', 'Number of Games'],
         ['Schizophrenia', 1],
         ['Autism', 9],
         ['ADHD', 2],
@@ -75,7 +75,7 @@ function Audience() {
 
 function Purpose() {
     var data = google.visualization.arrayToDataTable([
-        ['Game Purposes', 'Number of Games'],
+        ['', 'Number of Games'],
         ['Health', 7],
         ['Education', 1],
         ['Training', 9]
@@ -91,7 +91,7 @@ function Purpose() {
 
 function Multiplayer() {
     var data = google.visualization.arrayToDataTable([
-        ['Multiplayer', 'Number of Games'],
+        ['', 'Number of Games'],
         ['No', 13],
         ['Coop', 4],
         ['Comp', 0]
@@ -107,7 +107,7 @@ function Multiplayer() {
 
 function Platform() {
     var data = google.visualization.arrayToDataTable([
-        ['Platform', 'Number of Games'],
+        ['', 'Number of Games'],
         ['Mobile', 6],
         ['PC', 8],
         ['AR', 1],
@@ -154,7 +154,7 @@ function Style() {
 
 function InputDevice() {
     var data = google.visualization.arrayToDataTable([
-        ['Input Device', 'Number of Games'],
+        ['Input Device Type', 'Number of Games'],
         ['Touchscreen', 7],
         ['Mouse', 3],
         ['Mouse & Keyboard', 2],
@@ -164,7 +164,7 @@ function InputDevice() {
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'Input Device', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Input Device Type', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
     var chart = new google.visualization.BarChart(document.getElementById('InputDevice'));
@@ -269,7 +269,7 @@ function Feedback() {
 
 function Interactive() {
     var data = google.visualization.arrayToDataTable([
-        ['Interactive Elements', 'Number of Games'],
+        ['Highlighting of Interactive Elements', 'Number of Games'],
         ['No', 10],
         ['Yes', 5],
         ['Not Tested', 1],
@@ -277,7 +277,7 @@ function Interactive() {
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'Interactive Elements', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Highlighting of Interactive Elements', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
     var chart = new google.visualization.BarChart(document.getElementById('Interactive'));
@@ -286,14 +286,14 @@ function Interactive() {
 
 function Haptic() {
     var data = google.visualization.arrayToDataTable([
-        ['Haptic', 'Number of Games'],
+        ['Use of Haptic', 'Number of Games'],
         ['No', 6],
         ['Yes', 4],
         ['Not Tested', 7]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'Haptic', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Use of Haptic', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
     var chart = new google.visualization.BarChart(document.getElementById('Haptic'));
@@ -302,14 +302,14 @@ function Haptic() {
 
 function Reminder() {
     var data = google.visualization.arrayToDataTable([
-        ['Reminder', 'Number of Games'],
+        ['Use of Task Reminders', 'Number of Games'],
         ['No', 5],
         ['Yes', 8],
         ['Not Tested', 4]
     ]);
 
     // Optional; add a title and set the width and height of the chart
-    var options = { 'title': 'Reminder', 'width': 550, 'height': 400 };
+    var options = { 'title': 'Use of Task Reminders', 'width': 550, 'height': 400 };
 
     // Display the chart inside the <div> element with id="piechart"
     var chart = new google.visualization.BarChart(document.getElementById('Reminder'));
@@ -318,7 +318,7 @@ function Reminder() {
 
 function Narration() {
     var data = google.visualization.arrayToDataTable([
-        ['Narration', 'Number of Games'],
+        ['', 'Number of Games'],
         ['Linear', 1],
         ['Not Tested', 3],
         ['Not Applicable', 13]
@@ -334,7 +334,7 @@ function Narration() {
 
 function Personal() {
     var data = google.visualization.arrayToDataTable([
-        ['Personalization Procedure', 'Number of Games'],
+        ['', 'Number of Games'],
         ['No', 15],
         ['Yes', 2]
     ]);
