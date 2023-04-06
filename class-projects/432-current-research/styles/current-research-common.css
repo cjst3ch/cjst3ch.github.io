@@ -1,5 +1,18 @@
 /* Current Research Project common stylesheet */
 
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -8,4 +21,49 @@
 
 .chart-spacing {
     margin: 10px;
+}
+
+.category-outline {
+    background-color: #D6D415;
+    padding: 10px;
+}
+
+.category-outline-second {
+    background-color: #D6D415;
+    padding: 10px;
+}
+
+.title-center {
+    background-color: #137BBD;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: white;
+    margin-bottom: 1%;
+}
+
+.information {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2%;
+}
+
+.header-background {
+    background-color: #690000;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.text-spacing {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#results {
+    padding-left: 5%;
+    padding-right: 5%;
 }
