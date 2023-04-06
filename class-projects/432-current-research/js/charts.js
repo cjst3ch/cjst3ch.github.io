@@ -75,7 +75,7 @@ function Audience() {
 
 function Purpose() {
     var data = google.visualization.arrayToDataTable([
-        ['', 'Number of Games'],
+        ['Purpose', 'Number of Games'],
         ['Health', 7],
         ['Education', 1],
         ['Training', 9]
@@ -91,7 +91,7 @@ function Purpose() {
 
 function Multiplayer() {
     var data = google.visualization.arrayToDataTable([
-        ['', 'Number of Games'],
+        ['Multiplayer', 'Number of Games'],
         ['No', 13],
         ['Coop', 4],
         ['Comp', 0]
@@ -107,7 +107,7 @@ function Multiplayer() {
 
 function Platform() {
     var data = google.visualization.arrayToDataTable([
-        ['', 'Number of Games'],
+        ['Platform', 'Number of Games'],
         ['Mobile', 6],
         ['PC', 8],
         ['AR', 1],
@@ -318,7 +318,7 @@ function Reminder() {
 
 function Narration() {
     var data = google.visualization.arrayToDataTable([
-        ['', 'Number of Games'],
+        ['Use of Narrative', 'Number of Games'],
         ['Linear', 1],
         ['Not Tested', 3],
         ['Not Applicable', 13]
@@ -334,7 +334,7 @@ function Narration() {
 
 function Personal() {
     var data = google.visualization.arrayToDataTable([
-        ['', 'Number of Games'],
+        ['Personalization', 'Number of Games'],
         ['No', 15],
         ['Yes', 2]
     ]);
