@@ -21,9 +21,9 @@ google.charts.setOnLoadCallback(Reminder);
 google.charts.setOnLoadCallback(Narration);
 google.charts.setOnLoadCallback(Personal);
 
-// $(document).ready(function () {
-//     $('body').addClass('js');
-// });
+// add js to body element of HTML
+var DocBody = document.getElementById("AddClass");
+DocBody.className = "js";
 
 // Draw the chart and set the chart values
 function CategoryOfGame() {
