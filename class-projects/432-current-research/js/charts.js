@@ -22,8 +22,7 @@ google.charts.setOnLoadCallback(Narration);
 google.charts.setOnLoadCallback(Personal);
 
 // add js to body element of HTML
-var DocBody = document.getElementById("AddClass");
-DocBody.className = "js";
+document.getElementsByClassName('no-js')[0].className = 'js';
 
 // Draw the chart and set the chart values
 function CategoryOfGame() {
