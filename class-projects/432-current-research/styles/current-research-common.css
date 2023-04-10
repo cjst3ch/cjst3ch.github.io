@@ -54,7 +54,7 @@ p {
     padding-left: 5%;
     padding-right: 5%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 2%;
 }
 

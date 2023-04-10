@@ -177,8 +177,8 @@ function InputDevice() {
 function NumberInputs() {
     var data = google.visualization.arrayToDataTable([
         ['Number of Inputs', 'Number of Games'],
-        ['1', 12],
-        ['2', 5]
+        ['One', 12],
+        ['Two', 5]
     ]);
 
     // Optional; add a title and set the width and height of the chart
