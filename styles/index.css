@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+
+#portfolioSections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#landing {
+    height: 100%;
+    border: 1px solid black;
+    margin: 0;
+    background-color: aquamarine;
+}
