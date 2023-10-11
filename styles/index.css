@@ -5,16 +5,43 @@ body {
     background-color: #f0f0f0;
 }
 
-
-
-#portfolioSections {
+/* set display to flex */
+.display-flex {
     display: flex;
+}
+
+/* set flex direction to column */
+.flex-column {
+    flex-direction: column;
+}
+
+/* evenly space content horizontally */
+.justify-content-evenly {
     justify-content: space-evenly;
 }
 
+/* center content horizontally */
+.justify-content-center {
+    justify-content: center;
+}
+
+/* center content vertically */
+.align-items-center {
+    align-items: center;
+}
+
+
+
 #landing {
-    height: 100%;
+    /* set section height to fill the viewport */
+    height: 100vh;
+    height: ;
     border: 1px solid black;
     margin: 0;
     background-color: aquamarine;
+}
+
+/* set id codingContent to have a small padding relative to the viewport */
+#codingContent {
+    padding: 0 5vw;
 }
