@@ -30,7 +30,18 @@ body {
     align-items: center;
 }
 
+/* set section to have a minimum height relative to the viewport */
+.min-height-30vh {
+    min-height: 30vh;
+    border: 1px solid black;
+    margin: 0;
+    background-color: #f0f0f0;
+}
 
+/* set the background color of odd divs with the class "my-class" */
+.min-height-30vh:nth-of-type(odd) {
+    background-color: #ffffff;
+}
 
 #landing {
     /* set section height to fill the viewport */
@@ -45,3 +56,5 @@ body {
 #codingContent {
     padding: 0 5vw;
 }
+
+/* alternate between two background colors */
