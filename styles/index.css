@@ -46,7 +46,6 @@ body {
 #landing {
     /* set section height to fill the viewport */
     height: 100vh;
-    height: ;
     border: 1px solid black;
     margin: 0;
     background-color: aquamarine;
