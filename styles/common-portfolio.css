@@ -1,0 +1,43 @@
+body {
+    background-color: #1A1A1A;
+    /* background: url(images/home_photo_cover1.jpg) no-repeat center center fixed; */
+    background-size: cover;
+    color: rgb(103, 226, 226);
+    margin: 0;
+}
+
+main {
+    background-color: #ffffff;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    display: inline-block;
+    color: rgb(11, 93, 165);
+}
+
+.no-bullets {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.active {
+    color: aquamarine;
+}
+
+ul.no-bullets>li {
+    background-color: crimson;
+    margin: 15px;
+}
+
+.project-covers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cover {
+    display: block;
+    position: relative;
+    width: 33%;
+    height: 20vh;
+}
