@@ -53,6 +53,8 @@ ul.no-bullets>li {
 .video-select,
 .photo-select {
     width: 100%;
+    /* height: auto; */
+    aspect-ratio: 16 / 9;
 }
 
 .video-gallery,
