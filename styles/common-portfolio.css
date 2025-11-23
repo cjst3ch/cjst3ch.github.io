@@ -45,13 +45,19 @@ ul.no-bullets>li {
 
 .video-block,
 .photo-block {
-    margin: 25px;
+    margin: 12.5px;
     background-color: #c56565;
-    width: 25%;
+    width: calc(25% - 25px);
 }
 
 .video-select,
 .photo-select {
     width: 100%;
     height: auto;
+}
+
+.video-gallery,
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
 }
